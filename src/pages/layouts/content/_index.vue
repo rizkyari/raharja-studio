@@ -4,6 +4,8 @@
         <div class="raharja-content">
             <router-view/>
         </div>
+        <!-- footer -->
+        <x-footer/>
     </div>
 </template>
 
