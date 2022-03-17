@@ -9,7 +9,7 @@
                     <div class="studio-link">List Studio</div>
                     <img src="@/assets/icons/cart-circle.png" class="cart-icon"/>
                     <div class="login-trigger">
-                        <div class="login-link">Masuk / Daftar</div>
+                        <div class="login-link" data-bs-toggle="modal" data-bs-target="#loginModal">Masuk / Daftar</div>
                         <img class="arrow-icon" src="@/assets/icons/arrow-down.png"/>
                     </div>
                 </div>
@@ -21,7 +21,7 @@
                 <div class="banner-sub">
                     Lihat semua studio yang kami miliki<br/> lalu lakukan sewa Studio yang lebih untuk mendapkan penawaran khusus
                 </div>
-                <button class="button-hubungi">
+                <button class="button-hubungi" >
                     <div class="button-wrapper"> 
                     <img src='@/assets/icons/cs-icon.png' class="cs-head"/>
                     <div>
@@ -31,6 +31,8 @@
                 </button>
             </div>
         </div>
+        <modal-login></modal-login>
+        <modal-register></modal-register>
     </div>    
 </template>
 
