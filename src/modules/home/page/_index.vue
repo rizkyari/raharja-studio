@@ -1,6 +1,7 @@
 <template>
     <div>
         <banners></banners>
+        <content></content>
     </div>
 </template>
 
