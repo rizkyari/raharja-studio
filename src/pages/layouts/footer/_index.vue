@@ -34,11 +34,11 @@
                     <div class="our-product">
                         <div class="text-start ul-title">Engage</div>
                             <ul class="p-0 li-item">
-                                <li>FAQ</li>
+                                <li @click="routeToFAQ">FAQ</li>
                                 <li>Fasilitas</li>
-                                <li>About Us</li>
+                                <li @click="routeToAboutUs">About Us</li>
                                 <li>privacy Policy</li>
-                                <li>Terms of Service</li>
+                                <li @click="routeToTerms">Terms of Service</li>
                             </ul>
                     </div>
                     <div class="our-product">

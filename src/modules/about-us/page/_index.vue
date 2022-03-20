@@ -1,6 +1,6 @@
 <template>
-    <div>
-        This is About Us
+    <div class="about-container">
+        <about-content></about-content>
     </div>
 </template>
 

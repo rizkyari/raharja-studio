@@ -5,7 +5,7 @@
             <div class="header-wrapper">
                 <img class='main-logo' src="@/assets/images/main-logo.png"/>
                 <div class="menu-item">
-                    <div class="home-link">Home</div>
+                    <div class="home-link" @click="routeToHome">Home</div>
                     <div class="studio-link">List Studio</div>
                     <img src="@/assets/icons/cart-circle.png" class="cart-icon"/>
                     <div class="login-trigger">

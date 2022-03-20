@@ -5,5 +5,10 @@ export default {
     components: {
         'modal-login': ModalLogin,
         'modal-register': ModalRegister
-    }
+    },
+    methods: {
+        routeToHome(){
+            this.$router.push({name:'Home'})
+        },
+    },
 }

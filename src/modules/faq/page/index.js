@@ -1,8 +1,8 @@
-import AboutContent from '../component/contents/_index.vue'
+import FaqContent from '../component/faq-content/_index.vue'
 
 export default {
     components : {
-        'about-content' : AboutContent
+        'faq-content' : FaqContent
     },
     methods: {
         scrollToTop() {

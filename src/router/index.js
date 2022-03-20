@@ -13,10 +13,20 @@ const routes = [
                 component: () => import('@/modules/home/page/_index.vue')
             },
             {
+                path: '/faq',
+                name: 'FAQ',
+                component: () => import('@/modules/faq/page/_index.vue')
+            },
+            {
                 path: '/about-us',
                 name: 'About Us',
                 component: () => import('@/modules/about-us/page/_index.vue')
-            }
+            },
+            {
+                path: '/terms-and-services',
+                name: 'Terms',
+                component: () => import('@/modules/terms-service/page/_index.vue')
+            },
         ]
     }
 ]

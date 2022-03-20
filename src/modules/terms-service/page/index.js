@@ -1,8 +1,8 @@
-import AboutContent from '../component/contents/_index.vue'
+import TermContent from '../component/terms-content/_index.vue'
 
 export default {
     components : {
-        'about-content' : AboutContent
+        'term-content' : TermContent
     },
     methods: {
         scrollToTop() {
