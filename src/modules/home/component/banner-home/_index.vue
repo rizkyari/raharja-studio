@@ -6,7 +6,7 @@
                 <img class='main-logo' src="@/assets/images/main-logo.png"/>
                 <div class="menu-item">
                     <div class="home-link" @click="routeToHome">Home</div>
-                    <div class="studio-link">List Studio</div>
+                    <div class="studio-link" @click="routeToStudio">List Studio</div>
                     <img src="@/assets/icons/cart-circle.png" class="cart-icon"/>
                     <div class="login-trigger">
                         <div class="login-link" data-bs-toggle="modal" data-bs-target="#loginModal">Masuk / Daftar</div>

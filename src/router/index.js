@@ -13,6 +13,11 @@ const routes = [
                 component: () => import('@/modules/home/page/_index.vue')
             },
             {
+                path: '',
+                name: 'List Studio',
+                component: () => import('@/modules/list-studio/page/_index.vue')
+            },
+            {
                 path: '/faq',
                 name: 'FAQ',
                 component: () => import('@/modules/faq/page/_index.vue')
