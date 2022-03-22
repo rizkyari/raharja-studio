@@ -13,9 +13,14 @@ const routes = [
                 component: () => import('@/modules/home/page/_index.vue')
             },
             {
-                path: '',
+                path: '/list-studio',
                 name: 'List Studio',
                 component: () => import('@/modules/list-studio/page/_index.vue')
+            },
+            {
+                path: '/list-studio/detail',
+                name: 'Detail Studio',
+                component: () => import('@/modules/detail-studio/page/_index.vue')
             },
             {
                 path: '/faq',

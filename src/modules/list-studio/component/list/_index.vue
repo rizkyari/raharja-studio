@@ -6,7 +6,10 @@
             <div class="list-studio d-flex">
                 <filter-studio class="col-lg-3"></filter-studio>
                 <div class="mx-4"></div>
-                <studio-item class="col-lg-8"></studio-item>    
+                <studio-item 
+                class="col-lg-8"
+                :content=contents
+                ></studio-item>    
             </div>
         </div>
     </div>
