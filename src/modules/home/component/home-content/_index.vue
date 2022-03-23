@@ -2,11 +2,19 @@
     <div class='content-container'>
         <div class="lokasi-studio my-5">
             <h3 class="loc-title">Lokasi Studio</h3>
-            <p class="loc-desc">Lokasi Studio Kami Berdasarkan WIlayah</p>
-            <div class="slider-loc"></div>
+            <p class="loc-desc">Lokasi Studio Kami Berdasarkan Wilayah</p>
+            <div class="slider-loc">
+                <multi-carousel></multi-carousel>
+            </div>
         </div>
         <div class="custom-needs d-flex align-items-center">
-            <div class="frame-video col-lg-5"></div>
+            <div class="frame-video col-lg-5">
+                <iframe width="558" height="357" src="https://www.youtube.com/embed/4XdOC0C7kPQ" class="video-embed"
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+            </div>
             <div class="col-lg-2"></div>
             <div class="summary-custom col-lg-5 text-start">
                 <h3 class="custom-title">Custom Kebutuhan Kamu</h3>
@@ -28,7 +36,7 @@
                 </button>
             </div>
         </div>
-        <div class="achievement-wrapper d-flex align-items-center justify-content-around py-5 my-5">
+        <div class="achievement-wrapper d-flex align-items-center justify-content-around py-5">
             <div class="total-client d-flex align-items-center">
                 <img src='@/assets/icons/user.png' class="total-icon"/>
                 <div class="total-desc text-start">
@@ -54,7 +62,9 @@
             </div>
         </div>
         <div class="custom-needs d-flex align-items-center ">
-            <div class="frame-video col-lg-5"></div>
+            <div class="facility-item col-lg-5">
+                <single-carousel></single-carousel>
+            </div>
             <div class="col-lg-2"></div>
             <div class="summary-custom col-lg-5 text-start">
                 <h3 class="custom-title">Fasilitas khusus hanya untukmu</h3>
@@ -69,11 +79,12 @@
                 <h1 class="partner-title">
                     #TemanKreasimu
                 </h1>
-                <div class="partner-desc">
+                <div class="partner-desc mb-5">
                     Ini adalah kreasi karya dari Production House, Content Creator,
                     Instansi maupun Badan<br/> Usaha yang pernah menggunakan studio kami untuk berkarya.
                     Kamu bisa melihatnya<br/> melalui media sosial dan Channel Youtube mereka
                 </div>
+                <many-carousel :items="partners"></many-carousel>
             </div>
         </div>
         <div class="update-info d-flex align-items-center justify-content-between my-5">
